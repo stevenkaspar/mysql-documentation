@@ -1,0 +1,27 @@
+{
+  "name": "mysql-documentation",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "document": "node ./src/index.js"
+  },
+  "author": "Steven Kaspar",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^0.5.0",
+    "promise-mysql": "^3.3.1"
+  },
+  "bin": {
+    "mysql-documentation": "./cli.js"
+  },
+  "keywords": [
+    "mysql",
+    "documentaion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenkaspar/mysql-documentation.git"
+  }
+}
